@@ -5,5 +5,5 @@ Add ntpdmon.sh script to /usr/local/bin/ntpdmon.sh
 
 Add crontab for run script (use command crontab -e)
 
-*/5 * * * * /usr/local/bin/openntpdmon.sh > /var/lib/node_exporter/textfile_collector/ntpd_metrics.prom
+*/5 * * * * /usr/local/bin/ntpdmon.sh > /var/lib/node_exporter/textfile_collector/ntpd_metrics.prom
 
