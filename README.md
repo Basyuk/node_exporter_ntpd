@@ -1,5 +1,5 @@
 # node_exporter_ntpd
-For scrape this metrics enable textfile collector. For example add parameter --collector.textfile.directory=/var/lib/node_exporter/textfile_collector and restart service
+For scraping this metrics enable textfile collector. For example add parameter --collector.textfile.directory=/var/lib/node_exporter/textfile_collector and restart service
 
 Add ntpdmon.sh script to /usr/local/bin/ntpdmon.sh
 
